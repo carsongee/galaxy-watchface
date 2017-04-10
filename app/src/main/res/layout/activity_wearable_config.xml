@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="us.worldminus.galaxy_watchface.WearableConfig">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <RadioGroup
+            android:id="@+id/background_group"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <RadioButton
+                android:id="@+id/snooze"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Snooze" />
+
+            <RadioButton
+                android:id="@+id/pack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Package"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="44dp" />
+
+            <RadioButton
+                android:id="@+id/ptfo"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:text="PTFO" />
+
+            <RadioButton
+                android:id="@+id/soul"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:text="Soul" />
+
+            <RadioButton
+                android:id="@+id/derpy"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:text="Derpy" />
+        </RadioGroup>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
